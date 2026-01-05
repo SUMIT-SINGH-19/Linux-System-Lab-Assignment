@@ -1,0 +1,4 @@
+user login
+admin access granted
+normal user
+admin logged out

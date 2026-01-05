@@ -1,0 +1,25 @@
+uptime
+
+ps -u $USER
+
+top -u $USER
+
+sleep 300 &
+jobs
+
+ps -u $USER
+
+renice 10 -p <pid>
+
+free -h
+
+df -h ~
+
+echo $SHELL
+
+uname -a > system_report.txt
+cat system_report.txt
+
+sudo apt install ncdu
+
+ncdu ~
